@@ -1,0 +1,21 @@
+serviceConf.sh
+
+Usage;
+
+cd to location
+To run use
+./serviceConf.sh
+
+Info;
+
+This will turn network services on.
+It is useful if you have finished using airmon-ng.
+
+Code;
+
+#!/bin/bash
+cd /etc/init.d
+./networking start
+./network-manager start
+./networking status
+./network-manager status
