@@ -1,0 +1,20 @@
+update.sh
+
+Usage;
+
+cd to location
+To run use
+./update.sh
+
+Info;
+
+Quick and easy way to do updates.
+
+
+Code;
+
+#!/bin/bash
+
+echo "Starting updates"
+apt-get update && apt-get upgrade
+
